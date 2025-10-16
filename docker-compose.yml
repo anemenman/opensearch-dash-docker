@@ -10,7 +10,6 @@ services:
       - PLUGINS_SECURITY_DISABLED=true
       - "OPENSEARCH_JAVA_OPTS=-Xms4g -Xmx4g"
       - DISABLE_SECURITY_PLUGIN=true
-      - HTTP_MAX_CONTENT_LENGTH=1g
       #      - "OPENSEARCH_INITIAL_ADMIN_PASSWORD=admin12345" #init admin password
       - discovery.type=single-node
       - plugins.security.ssl.http.enabled=false
