@@ -7,7 +7,6 @@ services:
       - cluster.name=opensearch-cluster
       - node.name=opensearch-node1
       - bootstrap.memory_lock=true
-      - PLUGINS_SECURITY_DISABLED=true
       - "OPENSEARCH_JAVA_OPTS=-Xms4g -Xmx4g"
       - DISABLE_SECURITY_PLUGIN=true
       #      - "OPENSEARCH_INITIAL_ADMIN_PASSWORD=admin12345" #init admin password
